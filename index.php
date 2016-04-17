@@ -12,7 +12,7 @@ database::connect();
 database::select();
 database::insertVlastnik();
 database::insertVuz();
-database::update();
+database::updateVlastnik();
 ?>
     <br>
 </body>
