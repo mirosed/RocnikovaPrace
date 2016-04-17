@@ -5,10 +5,15 @@
 	<title>PHP a MYSQL</title>
 </head>
 <body>
-
+    <br>
 <?php
-include_once "database.php";
+require_once "database.php";
+database::connect();
+database::select();
+database::insertVlastnik();
+database::insertVuz();
+database::update();
 ?>
-	
+    <br>
 </body>
 </html>
